@@ -1,0 +1,143 @@
+/* 
+Theme Name: Webhedron Child
+Description: Child theme of Wordpress Bootstrap Master wp-bootstrap
+Author: Renee Nistler
+Version: 1.0
+Template: wp-bootstrap
+*/
+
+@import url('../wp-bootstrap/style.css');
+
+* {
+   box-sizing:border-box;
+}
+
+body{
+   background-color: #bdbebe;
+   font-family: Verdana;
+}
+
+/*MENU ITEMS Overrides*/
+
+div.navbar-inner .nav-container {
+   background-color: #FFFFFF;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:focus {
+   color: #696869;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+   -moz-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+   box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+   margin-top: 20px;
+   text-shadow: none;
+}
+
+.navbar .nav > .active > a:hover {
+   color: #96a926;
+   background-color: #FFFFFF;
+   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+   -moz-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+   box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.navbar .nav {
+   position: relative;
+   left: 0;
+   display: block;
+   float: right;
+   margin: 0 0 0 0;
+}
+
+.nav {
+   text-transform: uppercase;
+   font-family: Verdana;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.navbar-inner {
+   border: none;
+   box-width: 0 0 0;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*END MENU ITEMS Overrides*/
+
+.container-fluid{
+   background-color: #696869;
+}
+
+/* HERO UNIT overrides */
+div.hero-unit {
+   background-color: gray;
+   font-family: Verdana;
+   font-weight: bold;
+   height: 180px;
+   position: relative;
+}
+
+div.hero-unit p.hero1 {
+   color: white;
+   font-size: 200%;
+   text-align: center;
+}
+div.hero-unit p.hero2 {
+   color: #29aae1;
+   text-align: center;
+   font-size: 150%;
+}
+
+#btn-calltoaction {
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+}
+
+.btn-info {
+   background-color: #98c221;
+   background-image: linear-gradient(to bottom, #98c221, #98c221);
+}
+
+/* END HERO UNIT overrides */
+
+/* MAIN overrides*/
+
+#main {
+   height: 700px;
+}
+
+/* END MAIN overrides*/
+
+/* FOOTER Overrides*/
+
+#inner-footer{
+   background-color: #FFFFFF;
+   height: 100%;
+   width: 970px;
+}
+
+.textwidget {
+   font-family: Verdana;
+   font-size: 10px;
+   margin-top: 0px;
+   margin-bottom: -20px;
+   line-height: 15px;
+}
+#footer-center {
+   text-align: center;
+}
+
+#footer-right {
+   margin-top: 10px;
+   text-align: right;
+   margin-right: 0px;
+}
+
+/* END FOOTER Overrides*/
+
+/*   WEBHEDRON Style Overrides End*/
