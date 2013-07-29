@@ -14,9 +14,7 @@
 
       <title><?php wp_title('|', true, 'right'); ?></title>
 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <!-- media-queries.js (fallback) -->
+            <!-- media-queries.js (fallback) -->
       <!--[if lt IE 9]>
          <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>			
       <![endif]-->
@@ -40,6 +38,10 @@
    </head>
 
 
+   <bla>
+   what is this
+   </bal>
+   
    <body <?php body_class(); ?>>
 
       <!-- RFN Commented out <header role="banner">-->
@@ -47,7 +49,7 @@
       <div id="inner-header" class="clearfix">
 
          <div class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
+            <div class="navbar-massive-inner">
                <div class="container-fluid nav-container">
                   <!-- RFN Commented out <nav role="navigation"> -->
                   <a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">
